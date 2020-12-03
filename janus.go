@@ -16,7 +16,7 @@ import (
 	"github.com/gorilla/websocket"
 )
 
-var debug = false
+var debug = true
 
 func unexpected(request string) error {
 	return fmt.Errorf("Unexpected response received to '%s' request", request)
